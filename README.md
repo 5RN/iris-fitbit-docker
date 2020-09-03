@@ -44,7 +44,7 @@ Four cube definitions are available:
 
 These cubes will need to be built, once data has been ingested via IRIS terminal (see section above)
 
-Navigate to [Analytics -> Architect](http://localhost:9092/csp/fitbit/_DeepSee.UI.Architect.zen?$NAMESPACE=FITBIT&$NAMESPACE=FITBIT&) in Management Portal. If your IRIS instance is not runninig on port 9092, you will need to ammend the linked URL.
+Navigate to [Analytics -> Architect](http://localhost:9092/csp/fitbit/_DeepSee.UI.Architect.zen?$NAMESPACE=FITBIT&$NAMESPACE=FITBIT&) in Management Portal. If your IRIS instance is not running on port 9092, you will need to ammend the linked URL.
 
 Click Open button. Select each of the 4 cubes in turn and Click Build button.
 
