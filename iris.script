@@ -1,6 +1,11 @@
 ; run installer to create namespace
 do $SYSTEM.OBJ.Load("/opt/fitbit/Installer.cls", "ck")
 set sc = ##class(App.Installer).setup() 
+new $namespace
+set namespace = "FITBIT"
+set $namespace=namespace
+set app = $System.CSP.GetDefaultApp(namespace) _ "/"
+do EnableDeepSee^%SYS.cspServer(app)
 
 zn "%SYS"
 Do ##class(Security.Users).UnExpireUserPasswords("*")
