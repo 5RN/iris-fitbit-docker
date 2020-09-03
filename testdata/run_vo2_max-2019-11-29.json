@@ -1,0 +1,73 @@
+[{
+  "dateTime" : "01/13/20 05:04:00",
+  "value" : {
+    "exerciseId" : 28024449726,
+    "runVO2Max" : 48.22064,
+    "runVO2MaxError" : 3.11403,
+    "filteredRunVO2Max" : 48.22064,
+    "filteredRunVO2MaxError" : 3.11403
+  }
+},{
+  "dateTime" : "01/14/20 05:09:38",
+  "value" : {
+    "exerciseId" : 28058742010,
+    "runVO2Max" : 51.14777,
+    "runVO2MaxError" : 3.8498300000000003,
+    "filteredRunVO2Max" : 49.541090000000004,
+    "filteredRunVO2MaxError" : 1.7367000000000001
+  }
+},{
+  "dateTime" : "01/16/20 05:25:32",
+  "value" : {
+    "exerciseId" : 28091306944,
+    "runVO2Max" : 47.93498,
+    "runVO2MaxError" : 2.68167,
+    "filteredRunVO2Max" : 48.88821,
+    "filteredRunVO2MaxError" : 1.0900800000000002
+  }
+},{
+  "dateTime" : "01/20/20 05:26:21",
+  "value" : {
+    "exerciseId" : 28214418602,
+    "runVO2Max" : 48.80507,
+    "runVO2MaxError" : 2.39181,
+    "filteredRunVO2Max" : 48.859080000000006,
+    "filteredRunVO2MaxError" : 0.8380500000000001
+  }
+},{
+  "dateTime" : "01/22/20 05:31:53",
+  "value" : {
+    "exerciseId" : 28260336593,
+    "runVO2Max" : 49.336560000000006,
+    "runVO2MaxError" : 3.02185,
+    "filteredRunVO2Max" : 48.97218,
+    "filteredRunVO2MaxError" : 0.7158300000000001
+  }
+},{
+  "dateTime" : "01/24/20 05:39:05",
+  "value" : {
+    "exerciseId" : 28322810289,
+    "runVO2Max" : 48.739470000000004,
+    "runVO2MaxError" : 3.6191600000000004,
+    "filteredRunVO2Max" : 48.929370000000006,
+    "filteredRunVO2MaxError" : 0.6657500000000001
+  }
+},{
+  "dateTime" : "01/27/20 05:17:13",
+  "value" : {
+    "exerciseId" : 28387015714,
+    "runVO2Max" : 49.20018,
+    "runVO2MaxError" : 2.20101,
+    "filteredRunVO2Max" : 49.002590000000005,
+    "filteredRunVO2MaxError" : 0.59516
+  }
+},{
+  "dateTime" : "01/29/20 05:39:29",
+  "value" : {
+    "exerciseId" : 28447078196,
+    "runVO2Max" : 54.71719,
+    "runVO2MaxError" : 12.147400000000001,
+    "filteredRunVO2Max" : 49.311910000000005,
+    "filteredRunVO2MaxError" : 0.6575300000000001
+  }
+}]

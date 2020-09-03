@@ -1,0 +1,19 @@
+[{
+  "achievementType" : "WINNER",
+  "challengeType" : "WORK_WEEK",
+  "challengeName" : "Workweek Hustle",
+  "title" : "1st Place",
+  "comment" : "Earned 2 times",
+  "description" : "You crushed the Workweek Hustle challenge with 72,542 steps",
+  "timesAchieved" : 2,
+  "lastEarned" : "2016-01-09T18:12:44.666+00:00"
+},{
+  "achievementType" : "GOAL_STREAK",
+  "challengeType" : "WORK_WEEK",
+  "challengeName" : "Workweek Hustle",
+  "title" : "Goal Streak",
+  "comment" : "Earned 1 time",
+  "description" : "Is it warm in here or are you just on fire? You’ve hit your goal each day this challenge.",
+  "timesAchieved" : 1,
+  "lastEarned" : "2016-01-09T18:12:44.669+00:00"
+}]
