@@ -13,6 +13,7 @@ USER ${ISC_PACKAGE_MGRUSER}
 
 COPY  Installer.cls .
 COPY  src /usr/irissys/mgr/src
+COPY  testdata /usr/testdata
 COPY iris.script /tmp/iris.script
 
 # run iris and initial 
