@@ -44,11 +44,11 @@ Four cube definitions are available:
 
 These cubes will need to be built, once data has been ingested via IRIS terminal (see section above)
 
-Navigate to [Analytics -> Architect](http://localhost:9092/csp/fitbit/_DeepSee.UI.Architect.zen?$NAMESPACE=FITBIT&$NAMESPACE=FITBIT&) in Management Portal. If your IRIS instance is not running on port 9092, you will need to ammend the linked URL.
+Navigate to [Analytics -> Architect](http://localhost:9092/csp/fitbit/_DeepSee.UI.Architect.zen?$NAMESPACE=FITBIT&$NAMESPACE=FITBIT&) in Management Portal. If your IRIS instance is not running on port 9092, you will need to amend the linked URL.
 
 Click Open button. Select each of the 4 cubes in turn and Click Build button.
 
-# Pivot tables, dashboards and widgets
+## Pivot tables, dashboards and widgets
 
 Now, pivot tables can be designed via Analytics -> Analyzer in Management Portal for each cube.
 
@@ -56,13 +56,13 @@ Dashboards and Widgets are built via Analytics -> User Portal after that.
 
 ## What's inside the repository
 
-## ObjectScript classes
+### ObjectScript classes
 
 * Defining mappings for JSON data structures.
 * Ingesting and Updating Data from Fitbit
 * Analytics cube definitions
 
-## Sample data
+### Sample data
 
 This data is loaded into /usr/testdata by Dockerfile during build process. It covers all identified types of Fitbit data available but is tiny subset in timeline terms. Included here primarily to demonstrate features and functionality of the solution.
 
