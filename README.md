@@ -31,16 +31,44 @@ Open IRIS terminal:
 ```
 $ docker-compose exec iris iris session iris
 USER>zn "FITBIT"
-FITBIT>set sc = ##class(Fitbit.Data.Ingest).LoadArchive("<path_to_unzipped_archive_data>")
+FITBIT>set sc = ##class(Fitbit.Data.Ingest).LoadArchive("/usr/testdata")
 ```
+
+## Analytics is enabled by the installer
+
+Four cube definitions are available:
+1. AltitudeByDay
+2. AverageHeartrateByDay
+3. CaloriesBurnedByDay
+4. StepsByDay
+
+These cubes will need to be built, once data has been ingested via IRIS terminal (see section above)
+
+Navigate to Analytics -> Architect in Management Portal http://localhost:9092/csp/fitbit/_DeepSee.UI.Architect.zen?$NAMESPACE=FITBIT&$NAMESPACE=FITBIT&
+
+Click Open button. Select each of the 4 cubes in turn and Click Build button.
+
+# Pivot tables, dashboards and widgets
+
+Now, pivot tables can be designed via Analytics -> Analyzer in Management Portal for each cube.
+
+Dashboards and Widgets are built via Analytics -> User Portal after that.
 
 ## What's inside the repository
 
+## ObjectScript classes
+
+* Defining mappings for JSON data structures.
+* Ingesting and Updating Data from Fitbit
+* Analytics cube definitions
+
+## Sample data
+
+This data is loaded into /usr/testdata by Dockerfile during build process. It covers all identified types of Fitbit data available but is tiny subset in timeline terms. Included here primarily to demonstrate features and functionality of the solution.
+
 ### Dockerfile
 
-The simplest dockerfile which starts IRIS and imports Installer.cls and then runs the Installer.setup method, which creates FITBIT Namespace and imports ObjectScript code from /src folder into it.
-Use the related docker-compose.yml to easily setup additional parametes like port number and where you map keys and host folders.
-Use .env/ file to adjust the dockerfile being used in docker-compose.
+Dockerfile which starts IRIS and imports Installer.cls and then runs the Installer.setup method, which creates FITBIT Namespace and imports ObjectScript code from /src and /testdata folders into it.
 
 ### .vscode/settings.json
 
