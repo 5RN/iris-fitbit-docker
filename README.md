@@ -44,7 +44,7 @@ Use .env/ file to adjust the dockerfile being used in docker-compose.
 
 ### .vscode/settings.json
 
-Settings file to let you immedietly code in VSCode with [VSCode ObjectScript plugin](https://marketplace.visualstudio.com/items?itemName=daimor.vscode-objectscript))
+Settings file to let you code in VSCode with [VSCode ObjectScript plugin](https://marketplace.visualstudio.com/items?itemName=daimor.vscode-objectscript))
 
 ### .vscode/launch.json
 Config file if you want to debug with VSCode ObjectScript
